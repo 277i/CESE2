@@ -531,22 +531,26 @@ body {
 .joblist{
     margin-bottom: .2rem;
 }
-.joblist .job:nth-child(3) div{
-    flex: 0 0 40%;
+.joblist .job:nth-child(2) div{
+    flex: 0 0 50%;
 }
-.joblist .job:nth-child(4){
+.joblist .job:nth-child(2) img{
+   width: 2.215rem;
+}
+.joblist .job:nth-child(1){
     flex-wrap: wrap;
    justify-content: flex-start;
 }
-.joblist .job:nth-child(4) div{
+.joblist .job:nth-child(1) div{
     flex: 0 0 100%;
     border-bottom: none;
     position: relative;
 }
-.joblist .job:nth-child(4) img{
+.joblist .job:nth-child(1) img{
     top: -.7rem;
+    width: 3.33rem;
 }
-.joblist .job:nth-child(4) p{
+.joblist .job:nth-child(1) p{
     padding-bottom: .1rem;
     border-bottom: solid .01rem #0142c2;
     display: inline-block;
