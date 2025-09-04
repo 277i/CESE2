@@ -254,7 +254,13 @@ body {
 }
 
 .content .title {
+  width:100%;
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #0042c6;
+  font-weight: 500;
 }
 .contboxd{
   width: 100%;
@@ -265,7 +271,7 @@ body {
   width: 90%;
 }
 .title img {
-  width: 100%;
+  width: 20%;
 }
 
 /* .imgstys1{
@@ -276,7 +282,7 @@ body {
     width: 100%;
 } */
 
-/* 加入我们 */
+/* 招聘流程 */
 .inner .joinContent {
   background: url(../images/join/bg1.png) no-repeat !important;
   background-size: 100% 100% !important;
